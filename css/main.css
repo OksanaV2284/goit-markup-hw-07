@@ -367,7 +367,7 @@ img {
   height: 20px;
   fill: currentColor;
 }
-.social__list--ft {
+.social__list_ft {
   margin-top: 20px;
   margin-right: 93px;
 }
@@ -377,7 +377,7 @@ img {
 .social__item:last-child {
   margin-right: 0;
 }
-.social__link--ft {
+.social__link_ft {
   color: var(--main-bg-cl);
   background-color: rgba(255, 255, 255, 0.1);
 }
@@ -496,7 +496,7 @@ img {
 .address__link:hover, .address__link:focus {
   color: var(--accent-color);
 }
-.address__link--cl {
+.address__link_cl {
   color: var(--cl-txt-ft);
 }
 
@@ -649,6 +649,18 @@ img {
   position: absolute;
   right: 28px;
   fill: var(--bg-cl-icon);
+}
+.btn__form-register {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  width: 200px;
+  height: 50px;
+  border: transparent;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
 }
 
 .logo {

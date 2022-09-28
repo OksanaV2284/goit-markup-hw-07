@@ -34,4 +34,17 @@
     right: 28px;
     fill: var(--bg-cl-icon);
   }
+  &__form-register {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+
+    width: 200px;
+    height: 50px;
+
+    border: transparent;
+
+    align-items: center;
+    text-align: center;
+  }
 }
